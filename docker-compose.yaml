@@ -26,7 +26,7 @@ services:
       - SE_NODE_MAX_SESSIONS=4
 
   vendor-portal:
-    image: vinsdocker/selenium
+    image: ufanarda/selenium
     depends_on:
       - chrome
     environment:
@@ -38,7 +38,7 @@ services:
     - ./output/vendor-portal:/home/selenium-docker/test-output
 
   flight-reservation:
-    image: vinsdocker/selenium
+    image: ufanarda/selenium
     depends_on:
       - firefox
     environment:
