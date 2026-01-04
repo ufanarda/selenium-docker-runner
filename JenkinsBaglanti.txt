@@ -1,0 +1,5 @@
+
+06-jenkin-ci-cd > 01-jenkins   TERMİNALDE AÇILIR VE "docker-compose up" İLE BAŞLATILIR SONRASINDA JENKİNS ÜZERİNDEN
+
+Jenkins > Nodes > UAMNODE1 
+Run from agent command line: (Unix): BU ALANDAKİ KODLARI SIRAYLA ÇALIŞTIRILDIĞINDA BAĞLANTI KURULUR
